@@ -241,7 +241,7 @@ all_img_file =[] # permet d enregistrer le images des fichiers
 chemin = [] # ce tableau contiendra des chemins absolu et on l'utilisera dans les fonctions pageback pagenext
 
 # cette fonction permet d inserer des elements dans l'arbre de droite
-def insertion(t,path, text):
+def insertion(t, path, text):
     if path.is_dir():
         try:
             t.insert(parent='', index=0, text=text,
@@ -498,6 +498,7 @@ def openFichiersDossiers(h):
     back.config(state=NORMAL)
 
 tree1.bind("<<Button-1>>", openFichiersDossiers)
+tree1.bind('<Double-Button-1>', openFichiersDossiers)
 tree1.bind('<KeyPress-Return>',openFichiersDossiers)
 
 
