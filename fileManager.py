@@ -14,37 +14,6 @@ import helper
 
 
 class FileManager(Tk):
-    __img_dir = None
-    __img_pc = None
-    __img_disk = None
-    __img_open = None
-    __img_copy = None
-    __img_copy1 = None
-    __img_paste = None
-    __img_paste1 = None
-    __img_close = None
-    __img_new_dir = None
-    __img_move = None
-    __img_search = None
-    __img_infors = None
-    __img_cut = None
-    __img_cut1 = None
-    __img_next = None
-    __img_back = None
-    __img_rename = None
-    __img_rename1 = None
-    __img_delete = None
-    __img_delete1 = None
-    __img_refresh = None
-    __img_download = None
-    __img_document = None
-    __img_videos = None
-    __img_images = None
-    __img_music = None
-    __img_desktop = None
-    __img_user = None
-
-    load_image = False
 
     MAX_SIZE_TO_TRASH = 2147483648
 
@@ -54,8 +23,6 @@ class FileManager(Tk):
     tabcopy = []
     # ce tableau contiendra les chemins absolus des elements sur lequel on a clique
     tabcut = []
-    # permet d'enregistrer les images des fichiers pour qu'elles ne disparaissent par dans l'arborescence de droite
-    all_img_file = []
 
     def __init__(self):
         super().__init__()
@@ -65,6 +32,9 @@ class FileManager(Tk):
         self.paths = []
         # permet de se balader dans le tableau paths
         self.pos_paths = 2
+
+        # permet d'enregistrer les images des fichiers pour qu'elles ne disparaissent par dans l'arborescence de droite
+        self.all_img_file = []
 
         self.load_images()
         self.setupUi()
@@ -171,12 +141,10 @@ class FileManager(Tk):
 
     def load_images(self):
         self.__img_dir = PhotoImage(file='images/sparklesfolderblank_99348 (1).png', master=self)
-        self.all_img_file.append(self.__img_dir)
         self.__img_pc = PhotoImage(file='images/Desktop_Acer_43256.png',  master=self)
         self.__img_disk = PhotoImage(file='images/hd_hardware_harddisk_9894.png',  master=self)
         self.__img_open = PhotoImage(file='images/open-file_40455.png', master=self)
         self.__img_copy = PhotoImage(file='images/Copy_26996.png', master=self)
-        self.all_img_file.append(self.__img_copy)
         self.__img_copy1 = PhotoImage(file='images/Copy_26996(1).png', master=self)
         self.__img_paste = PhotoImage(file='images/Paste_26994.png', master=self)
         self.__img_paste1 = PhotoImage(file='images/Paste_26994(1).png', master=self)
