@@ -4,10 +4,7 @@
 
 <h2>🚀 Demo</h2>
 
-<video width="320" height="240" controls>
-  <source src="demo/Enregistrement de l’écran 2024-07-21 071515.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+[![Video demo](https://youtu.be/FGue887jETs)](https://www.youtube.com/watch?v=FGue887jETs)
 
 <h2>Project Screenshots:</h2>
 
