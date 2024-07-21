@@ -4,15 +4,15 @@
 
 <h2>🚀 Demo</h2>
 
-[![Video demo](https://youtu.be/FGue887jETs)](https://www.youtube.com/watch?v=FGue887jETs)
+[![Video demo](https://img.youtube.com/vi/FGue887jETs/0.jpg)](https://www.youtube.com/watch?v=FGue887jETs)
 
 <h2>Project Screenshots:</h2>
 
-<img src="images/Capture d’écran 2024-07-21 070343.png" alt="project-screenshot" width="400" height="400/">
-<img src="images/Capture d’écran 2024-07-21 070419.png" alt="project-screenshot" width="400" height="400/">
-<img src="images/Capture d’écran 2024-07-21 070438.png" alt="project-screenshot" width="400" height="400/">
-<img src="images/Capture d’écran 2024-07-21 070447.png" alt="project-screenshot" width="400" height="400/">
-<img src="images/Capture d’écran 2024-07-21 070456.png" alt="project-screenshot" width="400" height="400/">
+<img src="images/Capture d’écran 2024-07-21 070343.png" alt="project-screenshot" width="600" height="400"/>
+<img src="images/Capture d’écran 2024-07-21 070419.png" alt="project-screenshot" width="600" height="400"/>
+<img src="images/Capture d’écran 2024-07-21 070438.png" alt="project-screenshot" width="600" height="400"/>
+<img src="images/Capture d’écran 2024-07-21 070447.png" alt="project-screenshot" width="600" height="400"/>
+<img src="images/Capture d’écran 2024-07-21 070456.png" alt="project-screenshot" width="600" height="400"/>
 
 <h2>🛠️ Installation Steps:</h2>
 
