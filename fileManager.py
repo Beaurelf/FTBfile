@@ -411,7 +411,7 @@ class FileManager(Tk):
                 tree.insert(parent='', index='end', text=text,
                             values=[time.ctime(os.path.getmtime(path)), 'Fichier' + (os.path.splitext(path)[1]).upper(),
                                     str(os.path.getsize(path)) + ' Byte(s)', path], image=img_file)
-                FileManager.all_img_file.append(img_file)
+                self.all_img_file.append(img_file)
             except OSError as e:
                 showerror("Erreur", message=str(e))
 
